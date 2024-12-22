@@ -1,5 +1,5 @@
 int man()
 {
-    int a, b;
+    int a;
     return 0;
 }
