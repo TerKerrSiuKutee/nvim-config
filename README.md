@@ -1,1 +1,1 @@
-THINH Duc Hoang: Doc con cac
+THINH Duc Hoang: Doc con cac, this is a git commit!
