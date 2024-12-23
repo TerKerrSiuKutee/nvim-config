@@ -7,7 +7,7 @@ return {
         component_separators = { left = '', right = ''},
         section_separators = { left = '', right = ''},
         globalstatus = true, -- Enable global statusline for Neovim 0.7+
-        disabled_filetypes = { "NvimTree", "neo-tree", "lazy" }, -- Filetypes to exclude
+        disabled_filetypes = { "NvimTree", "neo-tree", "lazy", "TelescopePromt" }, -- Filetypes to exclude
     },
     sections = {
         lualine_a = { "mode" }, -- Show current mode (e.g., NORMAL, INSERT)

@@ -13,7 +13,7 @@ return {
   --   end,
   -- }
   config = function ()
-    vim.keymap.set("n", "<C-e>", ":Neotree filesystem reveal left<CR>", { noremap = true, silent = true, desc = "Reveal Neotree on the left" })
+    vim.keymap.set("n", "<C-e>", ":Neotree reveal focus left<CR>", { noremap = true, silent = true, desc = "Reveal Neotree on the left" })
 
     -- If you want icons for diagnostic errors, you'll need to define them somewhere:
     vim.fn.sign_define("DiagnosticSignError",
